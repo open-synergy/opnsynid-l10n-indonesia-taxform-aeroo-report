@@ -32,10 +32,9 @@ install:
   - git clone --depth=1
     https://github.com/simetri-sinergi-id/maintainer-quality-tools.git
     ${HOME}/maintainer-quality-tools
-  - pip install unidecode==1.2.0
-  - pip install pycups==1.9.73
-  - pip install
-    git+https://github.com/adhoc-dev/aeroolib@master-fix-ods
+  - pip install unidecode
+  - pip install pycups
+  - pip install git+https://github.com/adhoc-dev/aeroolib@master-fix-ods
   - pip install git+https://github.com/edgewall/genshi@stable/0.7.x
   - pip install git+https://github.com/aeroo/currency2text.git
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
