@@ -13,4 +13,5 @@
 #
 # To provide both the URL and a branch, use:
 
-opnsynid-l10n-indonesia-taxform-aeroo-report https://github.com/open-synergy/opnsynid-l10n-indonesia-taxform-aeroo-report
+opnsynid-l10n-indonesia-taxform https://github.com/open-synergy/opnsynid-l10n-indonesia-taxform
+aeroo-report https://github.com/ingadhoc/aeroo_reports
